@@ -1,0 +1,65 @@
+@media screen and (max-width:1024px){
+    .gambar{
+        width: 55rem;
+        height: 13rem;
+    }
+}
+@media screen and (max-width:770px) {
+    .logo{
+        width: 7rem;
+        height: 3.5rem;
+    }
+    .button{
+        padding: .5rem 1.4rem;
+    }
+    .gambar{
+        width: 40rem;
+        height: 10rem;
+    }
+    .container{
+        width: 90%;
+        margin: 20px 2.25rem;
+    }
+    #result{
+        margin: 3rem 0rem 0rem;
+        margin-left: 1.5rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:430px) {
+    .gambar{
+        width: 25rem;
+        height: 6.5rem;
+    }
+    #result{
+        margin: 0;
+        gap: 1rem;
+    }
+    .kotak{
+        width: 45%;
+        height: 10rem;
+    }
+    .kecil button, .kecil h3{
+        font-size: 12px;
+    }
+    .sukses p{
+        font-size: 13px;
+    }
+    .sukses h2{
+        font-size: 25px;
+    }
+    #city, #prov{
+        font-size: 15px;
+    }
+    .lokasi p{
+        font-size: 15px;
+    }
+    td, th{
+        font-size: 6px;
+    }
+    .jadwal-sholat{
+        margin-left: -25px;
+    }
+}
